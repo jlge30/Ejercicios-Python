@@ -15,4 +15,3 @@ nota = int(input("Introduce la nonta: "))# cambiamos el tipo de dato
 print(evaluacion(nota))
 nota1 = input("Introduce la nonta1: ")
 print(evaluacion(int(nota)),"y ", evaluacion(int(nota1)))# cambiamos el tipo de dato
-print("hola")
