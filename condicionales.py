@@ -1,0 +1,17 @@
+print("--------------Programa evaluacion notas----------")
+def evaluacion(nota):#funcion
+    valoracion = "aprobado"
+    if nota < 5:#condicional
+        valoracion = "suspenso"
+    if nota > 8:
+        valoracion = "!!!sobresaliente!!!!"
+    
+    return valoracion
+
+print(evaluacion(4))
+print(evaluacion(8))
+print(evaluacion(9))
+nota = int(input("Introduce la nonta: "))# cambiamos el tipo de dato
+print(evaluacion(nota))
+nota = input("Introduce la nonta: ")
+print(evaluacion(int(nota)))# cambiamos el tipo de dato
