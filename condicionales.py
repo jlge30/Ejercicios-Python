@@ -13,5 +13,5 @@ print(evaluacion(8))
 print(evaluacion(9))
 nota = int(input("Introduce la nonta: "))# cambiamos el tipo de dato
 print(evaluacion(nota))
-nota = input("Introduce la nonta: ")
-print(evaluacion(int(nota)))# cambiamos el tipo de dato
+nota1 = input("Introduce la nonta1: ")
+print(evaluacion(int(nota)), evaluacion(int(nota1)# cambiamos el tipo de dato
