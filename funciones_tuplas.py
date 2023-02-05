@@ -50,4 +50,5 @@ print(milista1)
 #Tuplas no se pueden mover dentro de las mismas
 mitupla = ("hola", "Pedro","Joaquin",12,True)
 print(mitupla)
+print("hola")
 print(mitupla[2])#escojo un elemento
