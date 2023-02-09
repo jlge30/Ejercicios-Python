@@ -43,7 +43,29 @@ if salario_administrativo < salario_jefe_area < salario_director < salario_direc
 else:
     print("Algo falla en la empresa")
 
-input("Programa Becas")
+print("Programa Becas")
+distancia_escuela = int(input("Introduce la distancia a la escuela"))
+print("Distancia a la escuela: ", distancia_escuela)
+num_hermanos = int(input("Introduce los hermanos que tienes en la escuela"))
+print("Numero de hermanos: ", num_hermanos)
+salario = int(input("Introduce el salario"))
+print("Salario: ", salario)
+
+if distancia_escuela > 40 and num_hermanos > 2 and salario <= 20000:
+    print("Te corresponde la beca")
+else: 
+    print("NO te corresponde ninguna beca")
+
+print("Asignaturas año 2021")
+print("Asignaturas optativas: Matematicas, Lengua, Informatica")
+opcion = input("Introduce la asignatura")
+asignatura = opcion.lower()# trasforma la escritura en minusculas.
+
+if asignatura in ("matematicas", "lengua", "informatica"):
+    print("Has elegido " + asignatura)
+else:
+    print("La asignatura escogida no es correcta")
+
 
 
 
