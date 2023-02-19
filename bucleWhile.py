@@ -33,3 +33,18 @@ if intentos < 2:
     solucion = math.sqrt(numero)
     print("La raiz cuadrada de "+str(numero)+" es: ", solucion)
 
+
+for letra in "Python":
+    if letra =="h":
+        continue #excluyo y vuelvo al principio del bucle.
+    print("Viendo la letra: ", letra)
+
+#contar caracteres sin espacio en blanco
+nombre = "Esto es una prueba"
+contador = 0
+for i in nombre:
+    if i==" ":
+        continue
+    contador +=1
+
+print("Numero de caracteres: ", contador)
